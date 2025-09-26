@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="./css/additem.css">
+</head>
+<body>
+   <!-- Button to toggle modal visibility (Add Item Type) -->
+<button id="showAddItemFormBtn">Add Item Type</button>
+
+<!-- Modal -->
+<div id="itemTypeModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form id="addItemTypeForm">
+      <input type="text" id="itemTypeName" placeholder="Enter item type" required />
+      <input type="hidden" id="itemTypeId" />
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="itemTypesTableBody"></tbody>
+</table>
+
+      <script src="js/addItem.js"></script>
+</body>
+</html>
+

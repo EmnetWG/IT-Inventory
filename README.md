@@ -8,11 +8,11 @@ It helps organizations manage IT equipment such as computers, printers, and netw
 
  Features
 
- Add, edit, and delete equipment records
- Search & filter by floor, location, and item type
- Export data to Excel for reporting
- Toggle table columns with checkboxes
- Row numbering & sticky table headers
+ Add, edit, and delete equipment records,
+ Search & filter by floor, location, and item type,
+ Export data to Excel for reporting,
+ Toggle table columns with checkboxes,
+ Row numbering & sticky table headers,
  User authentication & session security
 
 
